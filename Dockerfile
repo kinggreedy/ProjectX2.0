@@ -32,8 +32,8 @@ RUN apt-get update && \
 
 RUN sh -c "$(curl -fsSL https://raw.githubusercontent.com/ouspg/ProjectX2/main/install.sh)"
 
-#Provide your repository link below
-RUN git clone <your_repo_link>
+
+COPY . /ProjectX/ProjectX2.0
 
 WORKDIR /ProjectX/ProjectX2.0
 RUN ls -a
