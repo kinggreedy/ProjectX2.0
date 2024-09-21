@@ -31,7 +31,7 @@ timeout: 10m
 ## By default, fuzz tests are executed in a sandbox to prevent accidental
 ## damage to the system. Set to false to run fuzz tests unsandboxed.
 ## Only supported on Linux.
-#use-sandbox: false
+use-sandbox: false
 
 ## Set to true to print output of the `cifuzz run` command as JSON.
 #print-json: true
